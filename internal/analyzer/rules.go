@@ -69,5 +69,4 @@ func checkSensitiveData(pass *analysis.Pass, call *ast.CallExpr, msg string){
 			}
 		}
 	}
-	// оптимизация: доаолнить строку v неймами
 }
